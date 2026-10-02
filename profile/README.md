@@ -7,7 +7,8 @@
 **Personal software lab and engineering index by [Levent Kurt](https://github.com/levent-kurt).**
 
 Focused software built in the open — macOS utilities, self-hosted infrastructure and
-developer tooling. Everything published here is free and open source.
+developer tooling. Most projects are free and open source; a few are not, and each
+repository states its own licence.
 
 **→ [reachdevel.com](https://reachdevel.com)**
 
@@ -37,11 +38,11 @@ escalates to the browser only on a block challenge.
 
 ### Android TV
 
-**[OmniCast TV](https://github.com/reachdevel) — internal testing** · `Kotlin` / `C++` · GPLv3
+**OmniCast TV** — *closed source, internal testing*
 Turns an Android TV into a wireless **AirPlay and DLNA receiver** for the phone and PC you
 already own. Screen mirroring with sound, AirPlay audio, video-URL casting from Safari and
 QuickTime, and UPnP pushes from VLC, BubbleUPnP and Plex. Local network only — no account,
-no cloud, no tracking.
+no cloud, no tracking. Source is not published.
 
 ### Developer Tool
 
@@ -62,5 +63,5 @@ unmaintained since v2 changed that surface.
 Projects are listed newest-first on [reachdevel.com](https://reachdevel.com), which also
 carries per-project installation steps. Releases are attached to individual repositories.
 
-Licensing varies by project and is stated per repository. Third-party ports and
-derivatives remain the property of their original authors.
+Licensing varies by project and is stated per repository — not everything here is open
+source. Third-party ports and derivatives remain the property of their original authors.
