@@ -46,6 +46,11 @@ no cloud, no tracking. Source is not published.
 
 ### Developer Tool
 
+**[MimeForge](https://github.com/reachdevel/mimeforge)** · `TypeScript` · MIT
+File-type icons as **SVG**, generated from any file extension — one tiny (~1.3 KB), recolorable icon per type,
+24 categories and ~1,365 known extensions. Colors, label font and icon bodies are swappable; CLI and library on
+[npm](https://www.npmjs.com/package/mimeforge).
+
 **[opencode-git-commit](https://github.com/reachdevel/opencode-git-commit)** · `TypeScript` · MIT · *archived*
 OpenCode plugin that commits your working tree when the session goes idle, using your last
 assistant message as the commit message. Built for the **OpenCode v1.x** plugin API and
