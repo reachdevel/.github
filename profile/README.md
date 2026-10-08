@@ -46,6 +46,12 @@ no cloud, no tracking. Source is not published.
 
 ### Developer Tool
 
+**[trblocked](https://github.com/reachdevel/trblocked)** · `TypeScript` · MIT
+Finds out **why a site will not open in Turkey** — DNS, IP, SNI or HTTP blocking, throttling, or the
+site simply being down — by checking each layer against a control. Prints the court decision text
+when the block page shows one. CLI and library on [npm](https://www.npmjs.com/package/trblocked),
+no runtime dependencies.
+
 **[MimeForge](https://github.com/reachdevel/mimeforge)** · `TypeScript` · MIT
 File-type icons as **SVG**, generated from any file extension — one tiny (~1.3 KB), recolorable icon per type,
 24 categories and ~1,365 known extensions. Colors, label font and icon bodies are swappable; CLI and library on
