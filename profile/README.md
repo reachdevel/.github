@@ -47,10 +47,11 @@ no cloud, no tracking. Source is not published.
 ### Developer Tool
 
 **[neotools](https://github.com/reachdevel/neotools)** · `Swift` · MIT
-macOS-native replacements for `du`, `df`, `top`, `find`, `lsof`, `ps` and `rm` — twelve commands that
+macOS-native replacements for `du`, `df`, `top`, `find`, `lsof`, `ps` and `rm` — thirteen commands that
 see **iCloud, APFS and the Trash**, an **Activity Monitor for the terminal** with performance and efficiency
-cores, GPU and watts, and photo, video and document tools with nothing else to install. Script-safe: piped,
-they print what the original prints. Installs with `brew install reachdevel/tap/neotools`.
+cores, GPU and watts, a **full-screen disk cleaner** that says what deleting really frees, and photo, video
+and document tools with nothing else to install. Script-safe: piped, they print what the original prints.
+Installs with `brew install reachdevel/tap/neotools`.
 
 **[trblocked](https://github.com/reachdevel/trblocked)** · `TypeScript` · MIT
 Finds out **why a site will not open in Turkey** — DNS, IP, SNI or HTTP blocking, throttling, or the
