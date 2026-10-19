@@ -72,8 +72,9 @@ commits are serialized per working directory. On [npm](https://www.npmjs.com/pac
 **[claude-git-autocommit](https://github.com/reachdevel/claude-git-autocommit)** · `TypeScript` · MIT
 Claude Code **Stop hook** that commits your working tree when a turn ends — and always exits `0`, so a
 failed commit never blocks the turn — with the same diff-derived Conventional Commit messages and no
-model call. Installed with `npx claude-git-autocommit --user` or `--project`; the hook is
-copied into `.claude/hooks` and `--dry-run` previews the change.
+model call. Install as a Claude Code plugin with
+`claude plugin install git-autocommit --marketplace reachdevel/claude-git-autocommit`,
+or as a standalone hook with `npx claude-git-autocommit --user`.
 On [npm](https://www.npmjs.com/package/claude-git-autocommit).
 
 ---
