@@ -38,11 +38,11 @@ escalates to the browser only on a block challenge.
 
 ### Android TV
 
-**OmniCast TV** — *closed source, internal testing*
+**[OmniCast TV](https://play.google.com/store/apps/details?id=com.omnicast.tv)** — *closed source, on Google Play*
 Turns an Android TV into a wireless **AirPlay and DLNA receiver** for the phone and PC you
 already own. Screen mirroring with sound, AirPlay audio, video-URL casting from Safari and
 QuickTime, and UPnP pushes from VLC, BubbleUPnP and Plex. Local network only — no account,
-no cloud, no tracking. Source is not published.
+no cloud, no tracking. Free on Google Play; source is not published.
 
 ### Developer Tool
 
@@ -64,13 +64,20 @@ File-type icons as **SVG**, generated from any file extension — one tiny (~1.3
 24 categories and ~1,365 known extensions. Colors, label font and icon bodies are swappable; CLI and library on
 [npm](https://www.npmjs.com/package/mimeforge).
 
-**[opencode-git-autocommit](https://github.com/reachdevel/opencode-git-autocommit)** · `TypeScript` · MIT
+**[coding-git-autocommit](https://github.com/reachdevel/coding-git-autocommit)** · `TypeScript` · MIT
+One deterministic Git autocommit engine for **Claude Code, OpenCode v2 and Codex**. Commits your working
+tree when an agent turn ends, with a Conventional Commit message derived from the staged diff — no model
+call, no API cost — and commits serialized per working directory. One npm package, no runtime
+dependencies: `npx coding-git-autocommit install claude --user`.
+On [npm](https://www.npmjs.com/package/coding-git-autocommit). Replaces the two plugins below.
+
+**[opencode-git-autocommit](https://github.com/reachdevel/opencode-git-autocommit)** · `TypeScript` · MIT · *archived*
 OpenCode **v2** plugin that commits your working tree when a session run reaches a terminal state —
 succeeded, failed or interrupted — and derives the Conventional Commit subject from the staged diff.
 No model call: the type and the file list come from `git diff --cached`, brand-new files included, and
 commits are serialized per working directory. On [npm](https://www.npmjs.com/package/opencode-git-autocommit).
 
-**[claude-git-autocommit](https://github.com/reachdevel/claude-git-autocommit)** · `TypeScript` · MIT
+**[claude-git-autocommit](https://github.com/reachdevel/claude-git-autocommit)** · `TypeScript` · MIT · *archived*
 Claude Code **Stop hook** that commits your working tree when a turn ends — and always exits `0`, so a
 failed commit never blocks the turn — with the same diff-derived Conventional Commit messages and no
 model call. Install as a Claude Code plugin with
