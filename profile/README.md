@@ -38,11 +38,11 @@ escalates to the browser only on a block challenge.
 
 ### Android TV
 
-**[OmniCast TV](https://play.google.com/store/apps/details?id=com.omnicast.tv)** — *closed source, on Google Play*
-Turns an Android TV into a wireless **AirPlay and DLNA receiver** for the phone and PC you
-already own. Screen mirroring with sound, AirPlay audio, video-URL casting from Safari and
-QuickTime, and UPnP pushes from VLC, BubbleUPnP and Plex. Local network only — no account,
-no cloud, no tracking. Free on Google Play; source is not published.
+**[OmniCast TV: Screen Mirroring](https://play.google.com/store/apps/details?id=com.omnicast.tv)** — *closed source, on Google Play*
+Free screen mirroring and cast receiver for Android TV. Mirror an iPhone, iPad or Mac with sound
+(AirPlay protocol), cast video from Safari and QuickTime, and push video, music and photos from VLC,
+BubbleUPnP, Plex and Windows "Cast to device" over DLNA/UPnP. A QR code lets any phone browser send
+files to the TV. Local network only — no account, no ads, no cloud, no tracking. Source is not published.
 
 ### Developer Tool
 
